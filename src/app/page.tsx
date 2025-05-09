@@ -1,4 +1,5 @@
 import IconLinksComponent from "@/components/IconLinksComponent";
+import ProjectComponent from "@/components/project/ProjectComponent";
 
 export default function Home() {
 
@@ -9,16 +10,16 @@ export default function Home() {
         <div>
           <h1 className="font-bold text-6xl">Thao Vang</h1>
           <h2 className='text-2xl'>Software Develper</h2>
-          <h3>Phone: (209)373-7382 | Email: vangt39@gmail.com</h3>
+          <h3>Email: vangt39@gmail.com | Phone: (209)373-7382</h3>
           <p className="mt-16 mb-20">Engineering solutions with creative, seamless experiences.</p>
           <div className="">
             <IconLinksComponent />
           </div>
         </div>
       </div>
-      <div className="col-span-7 w-full h-full overflow-y-auto px-10 py-10">
-        <div className="max-h-screen h-full ps-10 pe-40 flex flex-col justify-evenly bg-[rgb(255,255,255,0.4)] rounded-2xl">
-          <div className="flex flex-col gap-5">
+      <div className="col-span-7 w-full max-h-screen px-10 py-10">
+        <div className="h-full ps-10 pe-30 flex flex-col bg-[rgb(255,255,255,0.4)] rounded-2xl overflow-y-auto gap-8">
+          <div className="flex flex-col gap-5 mt-8">
             <h2 className="text-2xl">About Me</h2>
             <p>I'm a full-stack developer with expertise in TypeScript, Next.js, and Tailwind CSS, dedicated to creating intuitive and impactful web applications. With a background in education, I bring a structured and thoughtful approach to problem-solving, ensuring that my work is both technically sound and user-friendly. My current project, MatchPoint, leverages mapping technology to help users find and engage with local tennis courts, blending geospatial queries with seamless UI design. I thrive on innovation and practicality, always seeking ways to optimize backend functionality and refine frontend experiences. Passionate about sustainability and efficient solutions, I enjoy bridging creativity with technical precision to develop meaningful applications.</p>
           </div>
@@ -57,11 +58,11 @@ export default function Home() {
                 <img src="/assets/tailwindicon.png" className="w-10 h-10" alt="Tailwind CSS Logo" />
                 <h3>Tailwind CSS</h3>
               </div>
-
             </div>
           </div>
-          <div className="flex flex-col gap-5">
-          <h2 className="text-2xl">Projects</h2>
+          <div className="flex flex-col gap-5 mb-8">
+            <h2 className="text-2xl">Projects</h2>
+            <ProjectComponent />
           </div>
         </div>
       </div>
