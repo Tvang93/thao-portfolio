@@ -11,7 +11,8 @@ const IconLinksComponent = () => {
       <div>
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="w-10 h-10 hover:cursor-pointer"
+          size="2x"
+          className="hover:cursor-pointer"
           onClick={() =>
             window.open("https://www.linkedin.com/in/thao-vang-dev/")
           }
@@ -20,7 +21,8 @@ const IconLinksComponent = () => {
       <div>
         <FontAwesomeIcon
           icon={faGithub}
-          className="w-10 h-10 hover:cursor-pointer"
+          size="2x"
+          className="hover:cursor-pointer"
           onClick={() => window.open("https://github.com/Tvang93")}
         />
       </div>
@@ -28,7 +30,8 @@ const IconLinksComponent = () => {
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon
             icon={faFile}
-            className="w-10 h-10 hover:cursor-pointer"
+            size="2x"
+            className="hover:cursor-pointer"
           ></FontAwesomeIcon>
         </a>
       </div>

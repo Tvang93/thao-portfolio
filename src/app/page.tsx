@@ -9,7 +9,7 @@ export default function Home() {
       <div className="col-span-5 h-full w-full flex justify-center items-center">
         <div>
           <h1 className="font-bold text-6xl">Thao Vang</h1>
-          <h2 className='text-2xl'>Software Develper</h2>
+          <h2 className='text-2xl'>Junior Software Developer</h2>
           <h3>Email: vangt39@gmail.com | Phone: (209)373-7382</h3>
           <p className="mt-16 mb-20">Engineering solutions with creative, seamless experiences.</p>
           <IconLinksComponent />
