@@ -12,9 +12,7 @@ export default function Home() {
           <h2 className='text-2xl'>Software Develper</h2>
           <h3>Email: vangt39@gmail.com | Phone: (209)373-7382</h3>
           <p className="mt-16 mb-20">Engineering solutions with creative, seamless experiences.</p>
-          <div className="">
-            <IconLinksComponent />
-          </div>
+          <IconLinksComponent />
         </div>
       </div>
       <div className="col-span-7 w-full max-h-screen px-10 py-10">
@@ -28,35 +26,35 @@ export default function Home() {
             <div className="grid grid-cols-5 gap-3">
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/tsicon.png" className="w-10 h-10" alt="Typescript Logo" />
-                <h3>TypeScript</h3>
+                <h3 className="text-center">TypeScript</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/jsicon.png" className="w-10 h-10" alt="JavaScript Logo" />
-                <h3>JavaScript</h3>
+                <h3 className="text-center">JavaScript</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/csharpicon.png" className="w-10 h-10" alt="C# Logo" />
-                <h3>C#</h3>
+                <h3 className="text-center">C#</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/cssicon.png" className="w-10 h-10" alt="CSS Logo" />
-                <h3>CSS</h3>
+                <h3 className="text-center">CSS</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/reacticon.png" className="w-10 h-10" alt="React & Next.JS Logo" />
-                <h3>React & Next.JS</h3>
+                <h3 className="text-center">React & Next.JS</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/figmaicon.png" className="w-10 h-10" alt="Figma Logo" />
-                <h3>Figma</h3>
+                <h3 className="text-center">Figma</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/azureicon.png" className="w-10 h-10" alt="Microsoft Azure Logo" />
-                <h3>Microsoft Azure</h3>
+                <h3 className="text-center">Microsoft Azure</h3>
               </div>
               <div className="flex flex-col items-center py-2.5 px-4 bg-[rgb(255,255,255,0.4)] rounded-2xl gap-2">
                 <img src="/assets/tailwindicon.png" className="w-10 h-10" alt="Tailwind CSS Logo" />
-                <h3>Tailwind CSS</h3>
+                <h3 className="text-center">Tailwind CSS</h3>
               </div>
             </div>
           </div>
