@@ -5,7 +5,7 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen max-h-screen grid grid-cols-12 bg-blue-200">
+    <div className="min-h-screen max-h-screen grid grid-cols-12 bg-blue-200 text-black">
       <div className="col-span-5 h-full w-full flex justify-center items-center">
         <div>
           <h1 className="font-bold text-6xl">Thao Vang</h1>

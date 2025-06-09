@@ -11,11 +11,11 @@ const ProjectDescriptionComponent = (IProp: IProp) => {
   return (
     <div className='col-span-6 flex flex-col py-2 pe-3'>
         <div className=''>
-            <img src={ProjectData[activeState].ProjectImage} className='' alt={`${ProjectData[activeState].Project} Title`} />
+            <img src={ProjectData[activeState].ProjectImage} className='h-40 w-full object-cover top-0' alt={`${ProjectData[activeState].Project} Title`} />
         </div>
         <div className='flex flex-col gap-1 ps-3'>
             <h1 className='font-bold text-xl'>{ProjectData[activeState].Project}</h1>
-            <p>{ProjectData[activeState].ProjectDescription}</p>
+            <p className='h-20 overflow-y-scroll'>{ProjectData[activeState].ProjectDescription}</p>
             <a href={ProjectData[activeState].ProjectLink}  target="_blank" rel="noopener noreferrer" className='text-blue-600'>{ProjectData[0].ProjectLink}</a>
         </div>
     </div>
