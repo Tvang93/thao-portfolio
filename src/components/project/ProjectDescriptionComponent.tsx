@@ -15,7 +15,7 @@ const ProjectDescriptionComponent = (IProp: IProp) => {
         </div>
         <div className='flex flex-col gap-1 ps-3'>
             <h1 className='font-bold text-xl'>{ProjectData[activeState].Project}</h1>
-            <p className='h-30'>{ProjectData[activeState].ProjectDescription}</p>
+            <p className='h-30 overflow-auto'>{ProjectData[activeState].ProjectDescription}</p>
             <a href={ProjectData[activeState].ProjectLink}  target="_blank" rel="noopener noreferrer" className='text-blue-600'>{ProjectData[activeState].ProjectLink}</a>
         </div>
     </div>
